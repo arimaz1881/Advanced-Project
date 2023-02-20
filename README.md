@@ -17,7 +17,9 @@ In this work, the Quick Draw dataset was used. This dataset contains 345 classes
  
 ## Description of the ML model
 An image classification machine learning model is a type of algorithm that can automatically identify and categorize images based on their visual features. During the training process, the model learned to recognize patterns and features in the images that are associated with each class, and uses this knowledge to classify new, unlabeled images which are input by users.
+
 There are several types of image classification models, including convolutional neural networks (CNNs), which are currently the most popular approach. CNNs use multiple layers of neurons to learn hierarchical representations of the image, where each layer detects increasingly complex features. The final layer of the network produces a set of probabilities for each possible class, and the class with the highest probability is chosen as the predicted label for the image.
+
 The CNN model used in this project consists of 3 convolutional layers and 2 dense layers. It is made short and simple in order to maintain model’s ability to generalize data and avoid overfitting, as well as to make the model lightweighted and run fast in the browser, as it has to make predictions in real time.
 
 ## Results
@@ -31,7 +33,9 @@ Generalization: This model is able to correctly classify new images that it has 
 
 ## Resources
 •	M Shinozuka, B Mansouri (2009) Synthetic aperture radar and remote sensing technologies for structural health monitoring of Civil Infrastructure Systems. Structural Health Monitoring of Civil Infrastructure Systems. https://www.sciencedirect.com/science/article/pii/B9781845693923500049 
+
 •	Pralhad Gavali ME, J. Saira Banu (2019, August 2). Deep convolutional neural network for Image Classification on cuda platform. Deep Learning and Parallel Computing Environment for Bioengineering Systems. https://www.sciencedirect.com/science/article/pii/B9780128167182000130 
 
-•	Training and evaluation with the built-in methods  :   Tensorflow Core. TensorFlow. (2022). https://www.tensorflow.org/guide/keras/train_and_evaluate 
+•	Training and evaluation with the built-in methods  :   Tensorflow Core. TensorFlow. (2022). https://www.tensorflow.org/guide/keras/train_and_evaluate
+
 •	Alyafeai, Z. (2018, September 27). Train a model in tf.keras with colab, and run it in the browser with tensorflow.js. Medium. https://medium.com/tensorflow/train-on-google-colab-and-run-on-the-browser-a-case-study-8a45f9b1474e 
